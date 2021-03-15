@@ -1,0 +1,1763 @@
+/****************************************************************
+---------------------UNIERVSAL STYLING-------------------------
+*****************************************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+.home-desktopmenu, .kbfooterlogo-desktop, .desktop_links {
+	display: none;
+}
+
+body {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+
+/****************************************************************
+---------------------HAMBURGER STYLING-------------------------
+*****************************************************************/
+.hamburger{
+  background-color: #367341;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#1C1B1B;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background-color: #367341;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#1C1B1B;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu{z-index:1000000; font-size:0.8em; width:100%; background:#367341;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#000000 1px solid;}
+.menu li:hover{display: block;    background:#1C1B1B; padding:15px 0 15px 0; border-bottom:#1C1B1B 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#ffffff;}
+.menu ul li a:hover {  color: #ffffff; text-decoration:none;}
+.menu a{text-decoration:none; color:#ffffff;}
+.menu a:hover{text-decoration:none; color:#ffffff;}
+
+
+/****************************************************************
+---------------------HOME PAGE STYLING-------------------------
+*****************************************************************/
+
+header {
+	background-color: #367341;
+	height: 100%;
+}
+
+header img {
+	width: 98%;
+	max-width: 450px;
+}
+
+.toplogo {
+	position: relative;
+	top: 50px;
+	padding: 30px 20px;
+	background: #1C1B1B;
+	text-align: center;
+}
+
+.homecarousel {
+	max-height: 600px;
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+}
+
+.homecarousel img {
+	opacity: .7;
+	transition: .3s;
+}
+
+.homecarousel img:hover {
+	opacity: 1;
+	transition: .3s;
+}
+
+.opening {
+	padding: 5%;
+}
+
+.opening h1, h2 {
+	margin: auto;
+	padding: 0 5%;
+}
+
+.opening h1 {
+	padding-top: 20px;
+}
+
+.opening h2 {
+	padding-bottom: 20px;
+}
+
+main {
+	position: relative;
+	top: 50px;
+}
+
+.orangebutton {
+	position: relative;
+	top: 8px;
+	left: 5%;
+	padding: 6px 10px;
+	transition: .5s;
+}
+
+a.orangebutton:hover {
+		background-color: #1C1B1B;
+		transition: .5s;
+		display: inline-block;
+    transform: translateZ(0);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.05s;
+    transition-property: transform;
+    transform: scale(1.05);
+}
+
+.greensection {
+	background-color: #367341;
+	padding: 10px 0;
+	color: #ffffff;
+}
+
+.greensection h1 {
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: .5px;
+}
+
+.greenstripe {
+	background-color: #699A72;
+	height: 10px;
+}
+
+.opening a, .question a {
+	background-color: #DA723E;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.opening a:hover, .question a:hover {
+		background-color: #1C1B1B;
+		transition: .5s;
+}
+
+
+.services {
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+
+
+.servicetypes {
+	text-align: center;
+	max-width: 500px;
+	margin: auto;
+	padding: 80px 3% 10px 3%;
+}
+
+.services h1 {
+	padding: 10px 0 0 0;
+}
+
+.desktopservice1 {
+	float: none;
+}
+
+.desktopservice2 {
+	float: none;
+}
+
+.services img {
+	width: 100%;
+	opacity: 0.7;
+	transition: .5s;
+}
+
+.services img:hover {
+	opacity: 1;
+	transition: .5s;
+}
+
+.blackopacity {
+	width: 90%;
+	max-width: 450px;
+	background-color: black;
+	margin: auto;
+}
+
+.learnmore a {
+	text-decoration: none;
+	color: #DA723E;
+	font-weight: 500;
+	transition: .5s;
+}
+
+.learnmore a:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px);
+	transition: .5s;
+}
+
+.learnmore {
+	padding-bottom: 35px;
+}
+
+.contactus {
+	padding: 50px 0 0 0;
+	text-align: center;
+	margin: auto;
+}
+
+.contactus h1 {
+	padding-top: 10px;
+}
+
+.contactus ul{
+	padding: 0 10%;
+	text-align: left;
+}
+
+.contactus li {
+	display: inline-block;
+	padding: 5% 10px 1% 0;
+	font-size: 1.125rem;
+}
+
+.callemailbuttons {
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+	padding: 20px 0 30px 0;
+}
+
+.callemailbuttons li p {
+	color: #212529;
+}
+
+
+.callemail a {
+	display: block;
+	background-color: #DA723E;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 7px 10px;
+	font-size: 0.875rem;
+	width: 70px;
+	text-align: center;
+	transition: .5s;
+}
+
+.callemail a:hover {
+	background-color: #1C1B1B;
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+.map {
+	background-color: #F5FAF7;
+	padding: 30px 0 50px 0;
+	width: 100%;
+}
+
+.map img {
+	width: 90%;
+	max-width: 600px;
+	padding: 20px 0 10px 0;
+	transition: .3s;
+}
+
+.map img:hover {
+	transform: scale(.95);
+	transition: .3s;
+}
+
+figcaption {
+	max-width: 600px;
+  margin: auto;
+}
+
+.map h2 {
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.125rem;
+	padding-left: 27px;
+}
+
+.location {
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+}
+
+.map h1 {
+	padding-top: 60px;
+	font-weight: 500;
+}
+.map table {
+	padding: 10px 5%;
+	text-align: left;
+	margin: auto;
+}
+
+.map table th {
+	padding: 3px;
+	color: #367341;
+}
+
+.map table td {
+	padding: 0 12px;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.question {
+	margin: auto;
+	max-width: 475px;
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 40px;
+}
+
+.question h2, .question p, .question a {
+	padding: 5px 5%;
+	text-align: left;
+}
+
+.question h2 {
+	font-size: 1.563rem;
+	padding-top: 50px;
+}
+
+.question p {
+	font-size: 1.125rem;
+	padding-bottom: 20px;
+	margin: 0;
+}
+
+.bg_logomark {
+	position: absolute;
+	right: 0;
+	bottom: 480px;
+	z-index: -1;
+	max-height: 0;
+}
+
+.bg_logomark img {
+	width: 350px;
+	opacity: .08;
+	z-index: -1;
+}
+
+.social {
+	background-color: #367341;
+	height: 90px;
+}
+
+.socialmedia img {
+	padding: 30px 0 0 3%;
+	z-index: 100;
+	transition: .3s;
+}
+
+.socialmedia img:hover {
+	transform: scale(1.15);
+	opacity: .5;
+	transition: .3s;
+}
+
+.facebook {
+	position: relative;
+	height: 45px;
+	top: 2px;
+}
+
+.google {
+	position: relative;
+	height: 50px;
+	top: 5px;
+}
+
+.kbfooterlogo {
+	text-align: right;
+	position: relative;
+	right: 3%;
+	bottom: 40px;
+}
+
+.kbfooterlogo img {
+	height: 70px;
+}
+
+footer {
+	background-color: #699A72;
+	position: relative;
+	bottom: 0;
+}
+
+footer li {
+	line-height: 22px;
+}
+
+footer li, footer a {
+	font-size: 1.125rem;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 400;
+	transition: .3s;
+}
+
+footer li a:hover {
+	color: #1C1B1B;
+	font-weight: 500;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.sublist a {
+	font-size: 0.938rem;
+	padding: 0;
+	font-weight: 200;
+	transition: .3s;
+}
+
+.sublist a:hover {
+	color: #1C1B1B;
+	font-weight: 400;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.sublist {
+	line-height: 18px;
+}
+
+.listspace {
+	line-height: 100px;
+}
+
+.links {
+	padding: 20px 1%;
+	display: inline-block;
+	width: 100%;
+}
+
+footer ul {
+	display: inline;
+	text-align: left;
+}
+
+footer li {
+	padding: 0 5%;
+	list-style-type: none;
+	text-align: left;
+}
+
+/****************************************************************
+---------------------ABOUT PAGE STYLING-------------------------
+*****************************************************************/
+
+.subpage-header {
+	max-width: 1280px;
+	margin: auto;
+}
+
+.subpage-header {
+	background-color: #1C1B1B;
+}
+
+.sub-hamburger, .sub-menu, .sub-cross {
+	background-color: #1C1B1B;
+	color: #fff;
+}
+
+.subpage-toplogo img {
+	width: 75%;
+	max-width: 350px;
+}
+
+.subpage-toplogo {
+	position: relative;
+	top: 10px;
+	padding: 5px 0 20px 3%;
+	background-color: #1C1B1B;
+	text-align: left;
+	margin: 0;
+}
+
+.sub-menu li:hover {
+	background-color: #DA723E;
+}
+
+.subpage-menu ul li a:hover {
+	color: #DA723E;
+}
+
+.ourstory {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.aboutintro {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.about-main h1 {
+	margin: 0;
+	text-align: left;
+	padding: 0 0 20px 10%;
+	color: #1C1B1B;
+}
+
+.aboutcarousel {
+	margin: auto;
+	width: 100%;
+	padding: 10px 10%;
+}
+
+.aboutcarousel img {
+	width: 100%;
+	height: 100%;
+	padding: 0 5px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+
+.aboutopening {
+	width: 100%;
+	padding: 10px 11%;
+	margin: auto;
+	background-image: linear-gradient(#fff, #F5FAF7);
+}
+
+.proudlyserving {
+	height: 400px;
+	margin: auto;
+	width: 90%;
+	max-width: 360px;
+	text-align: center;
+}
+.proudlyserving h1 {
+	top: 50%;
+	text-align: center;
+	padding: 75px 0 10px 0;
+	color: #DA723E;
+}
+.proudlyserving h2 {
+	padding: 10px 0;
+	width: 80%;
+}
+
+.proudlyserving img {
+	top: 30px;
+}
+
+/****************************************************************
+---------------------SERVICES STYLING-------------------------
+*****************************************************************/
+
+.services-main h1 {
+	margin: 0;
+	text-align: left;
+	padding: 0 0 10px 3%;
+	color: #1C1B1B;
+}
+
+h4 {
+	color: #DA723E;
+	font-size: 1.15rem;
+	font-style: italic;
+	margin: auto;
+	text-align: left;
+	padding: 0 5% 0 3%;
+}
+
+.servicesintro {
+	padding: 10px 3% 60px 3%;
+}
+
+.servicesintro img {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.servicesintro h1, h5, p {
+	padding: 0 0 0 2%;
+}
+
+.services-1 h1 {
+	padding-bottom: 10px;
+	padding-top: 2px;
+}
+
+.servicesarticle {
+	padding-bottom: 10px;
+}
+
+.callservices a {
+	display: block;
+	background-color: #DA723E;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 7px 10px;
+	font-size: 0.875rem;
+	width: 90px;
+	text-align: center;
+	transition: .5s;
+}
+
+.callservices a:hover {
+	background-color: #1C1B1B;
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+.orangebutton2 {
+	position: relative;
+	left: 2%;
+	padding: 6px 10px;
+	transition: .5s;
+}
+
+a.orangebutton2:hover {
+		background-color: #1C1B1B;
+		transition: .5s;
+		display: inline-block;
+    transform: translateZ(0);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.05s;
+    transition-property: transform;
+    transform: scale(1.05);
+}
+
+.services-2 {
+	padding: 20px 5% 60px 5%;
+	height: 100%;
+}
+
+.services-2 p {
+	padding: 5px 0 0 5%;
+}
+
+.callservices2 a {
+	display: block;
+	background-color: #DA723E;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 7px 10px;
+	font-size: 0.875rem;
+	width: 150px;
+	text-align: center;
+	transition: .5s;
+}
+
+.callservices2 a:hover {
+	background-color: #1C1B1B;
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+.orangebutton3 {
+	position: relative;
+	left: 5%;
+	padding: 6px 10px;
+	transition: .5s;
+}
+
+a.orangebutton3:hover {
+		background-color: #1C1B1B;
+		transition: .5s;
+		display: inline-block;
+    transform: translateZ(0);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.05s;
+    transition-property: transform;
+    transform: scale(1.05);
+}
+
+.dchart {
+	text-align: center;
+	padding-right: 8px;
+}
+
+.dumpsterchart {
+	height: 350px;
+	display: inline-flex;
+	margin: auto;
+	padding: 20px 0 50px 0;
+}
+.dumpsterchart li {
+	list-style-type: none;
+	padding: 10px 8px;
+}
+
+.rearload {
+	text-align: right;
+}
+
+.odump {
+	margin: auto;
+	text-align: center;
+}
+
+.dumpstersize {
+	max-width: 300px;
+	margin: auto;
+}
+
+.dumpstersize img {
+	padding-top: 10px;
+	width: 100%;
+	max-width: 300px;
+	margin: auto;
+}
+
+.greenline {
+	background-color: #367341;
+	width: 10px;
+	height: 100%;
+}
+
+.callemailbuttons p {
+	width: 200px;
+}
+
+/****************************************************************
+---------------------CONTACT STYLING-------------------------
+*****************************************************************/
+
+.contact-main {
+	background-color: white;
+}
+
+.contactlogo {
+	text-align: center;
+	display: none;
+}
+
+.contactlogo img {
+	width: 50%;
+}
+
+.form {
+	max-width: 320px;
+	margin: auto;
+}
+
+.form h1 {
+	padding: 0 0 0 5%;
+}
+
+.form p {
+	font-size: 0.9rem;
+	padding: 0 5%;
+}
+
+
+.contact-form {
+  text-align: center;
+	z-index: 100;
+	padding-bottom: 50px;
+}
+
+.reset,
+.submit {
+  display: inline;
+  padding: 5px;
+}
+
+.reset input,
+.submit input {
+  background: #DA723E;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 1px;
+  font-size: 1rem;
+}
+
+input:hover {
+  background: #1C1B1B;
+  transition: .3s;
+}
+
+input {
+	border: 1px solid #363636;
+  font-size: 1rem;
+  margin: 5px;
+	color: #DA723E;
+	font-weight: 400;
+}
+
+.mail input {
+  margin-bottom: 12px;
+}
+
+label {
+	color: #367341;
+}
+
+textarea {
+  font-size: 1rem;
+  padding: 9px;
+  border-radius: 1px;
+	background-color: #363636;
+	color: white;
+}
+
+.reset input, .submit input {
+	border: none;
+}
+
+#firstname {
+	width: 200px;
+}
+
+#lastname {
+	width: 200px;
+}
+
+#email {
+	width: 239px;
+}
+
+#telephone {
+	width: 172px;
+}
+
+#comments {
+	font-weight: 500;
+}
+
+
+.cupage-callemail {
+	padding: 0 0 60px 0;
+}
+
+.cumap {
+	text-align: center;
+}
+
+.cuhours h1 {
+	text-align: center;
+}
+
+
+
+
+
+/****************************************************************
+---------------------MEDIA QUERY STYLING-------------------------
+*****************************************************************/
+
+
+/************---START CAROUSEL RESPONSIVE STYLING---************/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+	.slide-box {
+		margin: auto;
+		max-height: 240px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 822.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+	.slide-box {
+		margin: auto;
+		max-height: 200px;
+	}
+}
+
+@media (min-width: 823px) and (max-width: 991.98px) {
+	.slide-box img {
+		-ms-flex: 0 0 33.3333%;
+		flex: 0 0 33.3333%;
+		max-width: 33.3333%;
+	}
+	.slide-box {
+		margin: auto;
+		max-height: 220px;
+	}
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+	.slide-box {
+		margin: auto;
+		max-height: 210px;
+		max-width: 850px;
+	}
+}
+/************---END CAROUSEL RESPONSIVE STYLING---************/
+
+
+
+
+/*************Start Media Query - max-width 485px**************/
+
+@media (max-width: 485px) {
+		.mobileemail li{
+		font-size: 0.983rem;
+	}
+}
+/*************End Media Query - max-width 485px****************/
+
+
+
+/*************Start Media Query - max-width 430px**************/
+
+@media (max-width: 430px) {
+	.mobileemail li{
+		font-size: 0.75rem;
+	}
+	.contactus ul {
+		padding: 0 3%;
+	}
+	.callemailbuttons {
+		max-width: 320px;
+	}
+	.backgroundkb {
+		max-height: 175px;
+		bottom: 8%;
+	}
+}
+/*************End Media Query - max-width 430px****************/
+
+
+
+/*************Start Media Query - min-width 580px**************/
+
+@media (min-width: 580px) {
+	.proudlyserving {
+		max-width: 800px;
+	}
+
+	.proudlyserving h1 {
+		padding-top: 100px;
+	}
+
+}
+
+/*************End Media Query - max-width 580px****************/
+
+
+
+
+/*************Start Media Query - 550px-724px****************/
+/****************************************************************
+ ------------------SERVICE PAGE RESPONSIVE STYLING---------------
+ *****************************************************************/
+
+@media (min-width: 550px) and (max-width: 724px) {
+
+.dump {
+	display: flex;
+}
+
+.dumpstersize {
+	display: inline-flex;
+	max-width: 100%;
+	justify-content: center;
+}
+
+.odump img {
+	padding: 0;
+	position: relative;
+	bottom: 35px;
+}
+
+.dchart {
+	padding-right: 25px;
+}
+
+}
+
+/*************End Media Query - 550px-724px****************/
+
+
+
+/*************Start Media Query - min-width 725px**************/
+
+/****************************************************************
+---------- Services PAGE RESPONSIVE STYLING---------------
+*****************************************************************/
+
+@media (min-width: 725px) {
+	.services-2 {
+		display: inline-flex;
+		justify-content: center;
+		flex: auto;
+		margin: auto;
+	}
+
+	.s2 {
+		margin: auto;
+		display: grid;
+	}
+
+	.services-2 h2 {
+		padding-left: 15px;
+	}
+
+	.dchart {
+		padding-left: 50px;
+		width: 350px;
+	}
+
+	.dumpstersize {
+		max-width: 500px;
+		width: 300px;
+		margin: auto;
+	}
+
+	.services-1 {
+		margin: auto;
+		display: block;
+		justify-content: center;
+	}
+
+	.article1, .article2 {
+		display: inline-flex;
+		max-width: 1000px;
+	}
+
+	.article1 img, .article2 img {
+		min-width: 350px;
+		max-width: 400px;
+	}
+
+	.article1, .article2 {
+		padding-top: 20px;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+	}
+
+	.article1 h1, .article2 h1 {
+		padding-top: 11px;
+	}
+
+	.article1 p, .article2 p {
+		font-size: .9rem;
+	}
+
+	.article2 h5 {
+		font-size: 1.1rem;
+	}
+
+	.services-main {
+		background-color: white;
+	}
+
+	.servicestitle {
+		max-width: 1000px;
+	}
+}
+
+/*************End Media Query - max-width 725px****************/
+
+
+
+/*************Start Media Query - min-width 825px**************/
+
+/****************************************************************
+----------825px-------HOME PAGE RESPONSIVE STYLING---------------
+*****************************************************************/
+
+@media (min-width: 825px) {
+
+	.menu, .hamburger, .cross {
+		display: none;
+	}
+	.toplogo {
+		position: relative;
+		top: 0;
+	}
+
+	.home-desktopmenu {
+		display: contents;
+	}
+
+	.home-desktopmenu ul {
+		text-align: center;
+		padding: 20px 5%;
+		margin: 0;
+	}
+
+	.home-desktopmenu li {
+		display: inline;
+		padding: 0 4%;
+	}
+
+	.home-desktopmenu a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 1.25rem;
+		transition: .3s;
+	}
+
+	.home-desktopmenu a:hover {
+		color: #1C1B1B;
+		font-weight: 500;
+		transition: .3s;
+	}
+
+	main {
+		position: relative;
+		top: 0;
+	}
+
+	.homecarousel {
+		width: 100%;
+		max-width: 50%;
+		float: left;
+	}
+
+	.opening {
+		float: right;
+		width: 50%;
+		padding: 12% 5%;
+		margin: auto;
+		display: inline-flex;
+		justify-content: center;
+		}
+
+	.openingwords {
+		max-width: 500px;
+		margin: 0;
+		}
+
+	.opening h1, h2 {
+		margin: auto;
+		padding: 0;
+	}
+
+	.orangebutton {
+		left: 0%;
+	}
+
+	.opening a {
+		font-size: 1rem;
+	}
+
+	.services {
+		clear: both;
+		padding-top: 0;
+		width: 100%;
+	}
+
+	.servicetypes {
+		width: 100%;
+		max-width: 1200px;
+	}
+
+	.desktopservice1 {
+		float: left;
+		width: 50%;
+	}
+
+	.desktopservice2 {
+		float: left;
+		width: 50%;
+	}
+
+	.services h1 {
+		font-size: 1.6rem;
+	}
+	.services a {
+		font-size: 1.375rem;
+	}
+
+	.contactus {
+		clear: both;
+	}
+
+	.businesshours {
+		float: right;
+		width: 30%;
+		background-color: #F5FAF7;
+	}
+
+	.location {
+		float: left;
+		width: 70%;
+		background-color: #F5FAF7;
+		margin: auto;
+		padding-right: 0;
+	}
+
+	.map {
+		height: 540px;
+		width: 100%;
+	}
+
+	.desktopmap {
+		max-width: 940px;
+		margin: auto;
+	}
+
+	.question {
+		clear: both;
+		height: 540px;
+		position: relative;
+		right: 150px;
+	}
+
+	.question h2 {
+		font-size: 2rem;
+		padding-top: 90px;
+	}
+
+	.question p {
+		font-size: 1.5rem;
+		padding-bottom: 20px;
+	}
+
+	.question a {
+		font-size: 1.125rem;
+		padding: 8px 20px;
+		left: 5%;
+	}
+
+	.desktopquestion {
+		max-width: 800px;
+		margin: auto;
+	}
+
+	.bg_logomark {
+		bottom: 521px;
+		z-index: -1;
+		width: 800px;
+		text-align: right;
+	}
+
+	.bg_logomark img {
+		position: relative;
+		width: 360px;
+		opacity: .08;
+		z-index: 1;
+	}
+
+	.desktopquestion {
+		position: relative;
+		margin: auto;
+		width: 800px;
+	}
+
+	.social {
+		background-color: #367341;
+		height: 110px;
+	}
+
+	.kbfooterlogo {
+		display: none;
+	}
+
+	.kbfooterlogo-desktop {
+		display: contents;
+	}
+
+	.kbfooterlogo-desktop img {
+		height: 70px;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.socialmedia img {
+		padding: 35px 0 0 3%;
+	}
+
+	.facebook {
+		position: relative;
+		height: 60px;
+		top: 2px;
+	}
+
+	.google {
+		position: relative;
+		height: 68px;
+		top: 5px;
+	}
+
+	.links {
+		display: none;
+	}
+
+	.desktop_links {
+		width: 1000px;
+		display: contents;
+		position: relative;
+	}
+
+	footer {
+		height: 300px;
+	}
+
+	.footertable {
+		margin: auto;
+		table-layout: auto;
+		position: relative;
+		top: 40px;
+		left: 42px;
+	}
+
+	.footertable th {
+		text-align: left;
+		font-size: 1.313rem;
+		color: #ffffff;
+		font-weight: 400;
+		text-decoration: none;
+	}
+
+	.footertable td {
+		font-size: 1.125rem;
+		width: auto;
+		text-align: left;
+	}
+
+	.footertable td a {
+		font-size: 1.125rem;
+		font-weight: 200;
+		text-decoration: none;
+	}
+
+	.footertable th a {
+		font-size: 1.313rem;
+	}
+
+	.small {
+		width: 12%;
+	}
+
+	.big {
+		width: 18%
+	}
+
+	.footertable th a:hover {
+		text-decoration: none;
+		font-weight: 500;
+		color: #1C1B1B;
+		transition: .3s;
+	}
+
+	.footertable td a:hover {
+		text-decoration: none;
+		font-weight: 400;
+		color: #1C1B1B;
+		transition: .3s;
+	}
+
+	/****************************************************************
+	----------825px----ABOUT PAGE RESPONSIVE STYLING----------
+	*****************************************************************/
+
+	.subpage-toplogo {
+		text-align: right;
+		margin-right: 0;
+	}
+
+	.subpage-toplogo img {
+		width: 35%;
+		max-width: 350px;
+		padding: 0 3% 10px 0;
+	}
+
+	.subpage-menu ul {
+		text-align: left;
+		padding: 0;
+		z-index: 1;
+		position: relative;
+		top: 80px;
+	}
+
+	.subpage-menu li {
+		padding: 0 2% 0 3%;
+	}
+
+	.subpage-menu a {
+		font-size: 1.1rem;
+	}
+
+	.about-main {
+		background-image: linear-gradient(#F5FAF7,#ffffff);
+		z-index: 0;
+	}
+
+	.proudlyserving h1 {
+		padding-top: 130px;
+	}
+	.aboutopening {
+		width: 100%;
+		padding: 10px 11%;
+		max-width: 100%;
+		margin: auto;
+		background-image: none;
+	}
+
+	.ourstory h1{
+		padding: 80px 0 30px 11%;
+		font-size: 1.7rem;
+	}
+
+	/****************************************************************
+	----------825px----SERVICES PAGE RESPONSIVE STYLING----------
+	*****************************************************************/
+
+	.servicestitle h1 {
+		padding-top: 40px;
+	}
+
+/****************************************************************
+----------825px-------Contact RESPONSIVE STYLING---------------
+*****************************************************************/
+	html {
+		overflow-x: hidden;
+	}
+
+	.contactlogo img {
+		margin: auto;
+		width: 53%;
+		padding: 0 60px 20px 0;
+	}
+
+	.form-section {
+		display: inline-flex;
+		justify-content: center;
+		max-width: 1000px;
+		max-height: 560px;
+	}
+
+	.contactlogo {
+		display: contents;
+		width: 20%;
+	}
+
+	.form {
+		margin: auto;
+		padding: 55px 0 0 0;
+		order: -1;
+		max-width: 100%;
+		display: grid;
+		width: 47%;
+		justify-content: center;
+	}
+
+	.form h1, .form p {
+		padding: 0;
+	}
+
+	.form p {
+		max-width: 298px;
+	}
+
+	.contact-form {
+		text-align: left;
+	}
+
+	.cform {
+		display: flex;
+		justify-content:center;
+	}
+
+	.cumap {
+		height: 600px;
+	}
+
+	.reset {
+		padding-left: 19px;
+	}
+
+	.cupage-callemail {
+		padding-bottom: 0;
+	}
+}
+/*************End Media Query - min-width 800px****************/
+
+
+
+
+/*************Start Media Query - min-width 870px****************/
+
+
+@media (min-width: 870px) {
+	/****************************************************************
+	---------- Services PAGE RESPONSIVE STYLING---------------
+	*****************************************************************/
+
+	.article1 p, .article2 p {
+		font-size: 1rem;
+	}
+}
+
+/*************End Media Query - min-width 870px****************/
+
+
+
+
+/*************Start Media Query - min-width 930px**************/
+
+/****************************************************************
+---------930px---------HOME PAGE RESPONSIVE STYLING---------------
+*****************************************************************/
+
+@media (min-width: 930px) {
+
+	.opening h1 {
+		font-size: 1.75rem;
+	}
+
+	.opening h2 {
+		font-size: 1.5rem;
+	}
+
+	.opening a {
+		font-size: 1.125rem;
+	}
+
+	.location h2 {
+		font-size: 1.25rem;
+	}
+
+	.businesshours {
+		font-size: 1.25rem;
+	}
+
+	/****************************************************************
+	---------930px---------ABOUT PAGE RESPONSIVE STYLING---------------
+	*****************************************************************/
+
+	.aboutopening {
+		padding: 10px 12%;
+	}
+
+	.subpage-menu ul {
+	 top: 100px;
+ }
+
+	.subpage-menu li {
+		padding: 0 2% 0 4%;
+	}
+
+	.subpage-menu a {
+		font-size: 1.05rem;
+	}
+
+}
+
+/*************End Media Query - min-width 930px*****************/
+
+
+
+
+/*************Start Media Query - min-width 1039px**************/
+
+/****************************************************************
+---------------------HOME PAGE RESPONSIVE STYLING---------------
+*****************************************************************/
+
+@media (min-width: 1039px) {
+
+	.opening h1 {
+		font-size: 30px;
+	}
+
+	.opening h2 {
+		font-size: 26px;
+	}
+
+	/****************************************************************
+	---------1039px---------ABOUT PAGE RESPONSIVE STYLING---------------
+	*****************************************************************/
+
+
+	.subpage-menu li {
+		padding: 0 2% 0 4%;
+	}
+
+	.subpage-menu a {
+		font-size: 1.15rem;
+	}
+
+	/****************************************************************
+	---------------------CONTACT PAGE RESPONSIVE STYLING---------------
+	*****************************************************************/
+
+	.form-section {
+		max-width: 1200px;
+	}
+
+	.cform p {
+		max-width: 600px;
+	}
+
+	.form  {
+		width: 65%;
+		max-width: 600px;
+	}
+
+	.contactlogo img {
+		width: 30%;
+		padding: 0 0 20px 0;
+	}
+
+	.input-section {
+		display: inline;
+	}
+
+	#comments {
+		width: 594px;
+	}
+
+	.submit {
+		padding: 0;
+	}
+
+	.reset {
+		padding-left: 340px;
+	}
+
+}
+
+/*************End Media Query - min-width 1039px****************/
+
+
+/*************Start Media Query - min-width 1075px**************/
+
+/****************************************************************
+---------------------SERVICES RESPONSIVE STYLING---------------
+*****************************************************************/
+
+@media (min-width: 1075px) {
+	.servicestitle {
+		margin: auto;
+	}
+
+	.servicestitle h1, .servicestitle h4 {
+		padding: 10px 0 0 0px;
+	}
+
+	.servicestitle h1 {
+		padding-top: 40px;
+	}
+}
+
+/*************End Media Query - min-width 1075px**************/
+
+
+
+
+
+ /*************Start Media Query - min-width 1200px**************/
+
+ /****************************************************************
+ ---------------------HOME PAGE RESPONSIVE STYLING---------------
+ *****************************************************************/
+
+ @media (min-width: 1240px) {
+
+	 .opening h1 {
+		 font-size: 36px;
+	 }
+
+	 .opening h2 {
+		 font-size: 30px;
+	 }
+
+	 /****************************************************************
+ 	---------1200px---------ABOUT PAGE RESPONSIVE STYLING---------------
+ 	*****************************************************************/
+	.about-body {
+		background-color: #1C1B1B
+	}
+
+ }
+
+ /*************End Media Query - min-width 1200px****************/
